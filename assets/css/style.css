@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Contenedor Padre*/
+.flex{
+    display: flex;
+}
+
+/*Contenedor Hijo 1*/
+.flex-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.flex-item p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+}
+/*Fin Contenedor Hijo 1*/
+
+
+/*Contenedores Nietos*/
+.container{
+    display: flex;
+    margin-top: 10px;
+}
+
+.status{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.icon{
+    display: flex;
+    gap: 10px;
+    padding: 30px;
+    font-size: 20px;
+    color: #828485;
+}
+
+.flex-button{
+    display: flex;
+    justify-content: center;
+    height: 8em;
+    align-items: center;
+}
+
+.flex-button button{
+    border: none;
+    background-color: #A491D2;
+    color: white;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.flex-button button:hover{
+    background-color: #CDC3E6;
+}
+
+.flex-button button:focus{
+    background-color: #BEC1BB;
+}
+
+.flex-contact{
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+}
+
+.pic img{
+    border-radius: 100px;
+    border-style: solid;
+    border-color: #BEC1BB;
+    flex-direction: column;
+}
+/*Fin Contenedores Nietos*/
+
+/*Contenedor Hijo 2*/
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 135vw;
+    height: 135vh;
+    overflow-y: scroll;
+    border-left: solid 1px #BEC1BB;
+}
+
+.main > img{
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.main > h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 45px;
+    color: #1B1F21;
+}
+
+.main > p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    color: #444749;
+    padding: 15px;
+}
+/*Fin Contenedor Hijo 2*/
